@@ -7,12 +7,21 @@ from link_bio.views.links.links import links
 class State(rx.State):
     pass
 def index() -> rx.Component:
-   return rx.vstack(
+   return rx.box(
         navbar(),
-        header(),
-        links(),
-        footer()
-   )
+        rx.center(
+            rx.vstack(
+                header(),
+                links(),
+                max_width="600px",
+                width="100%",
+                )
+                ),
+                footer()
+                )
+   
+   
+   
 app = rx.App()
 app.add_page(index)
 app._compile()

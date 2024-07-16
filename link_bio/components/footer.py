@@ -8,5 +8,5 @@ def footer() -> rx.Component:
       href="http://albertocabrera.de",
       is_external=True
       ),
-      rx.text("Fullstack Developer.")
+      rx.text("Fullstack Developer")
   )
