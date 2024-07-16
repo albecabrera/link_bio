@@ -9,7 +9,7 @@ def index() -> rx.Component:
    return rx.vstack(
         navbar(),
         header(),
-        links(),
+        links()
    )
 app = rx.App()
 app.add_page(index)
