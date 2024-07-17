@@ -9,11 +9,10 @@ MAX_WITDH = "560px"
 
 
 class Size(Enum):
-
-SMALL = "0.5em"
-MEDIUM = "0.8"
-DEFAULT = "1em"
-BIG = "2em"
+      SMALL = "0.5em"
+      MEDIUM = "0.8em"
+      DEFAULT = "1em"
+      BIG = "2em"
 
 # Styles
 BASE_STYLE = {
