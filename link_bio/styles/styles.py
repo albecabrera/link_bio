@@ -4,7 +4,7 @@ from enum import Enum
 MAX_WITDH ="560px"
 
 # Sizes
-class Spacer(Enum:)
+class Spacer(Enum):
 SMALL= "0.5em"
 DEFAULT= "1em"
 BIG= "2em"
