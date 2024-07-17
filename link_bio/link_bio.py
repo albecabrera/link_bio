@@ -7,6 +7,7 @@ import link_bio.styles.styles as styles
 
 class State(rx.State):
     pass
+
 def index() -> rx.Component:
    return rx.box(
         navbar(),
@@ -16,7 +17,7 @@ def index() -> rx.Component:
                 links(),
                 max_width=styles.MAX_WITDH,
                 width="100%",
-                margin_y=styles.Spacer.BIG.value,
+                margin_y=styles.Size.BIG.value
                 )
                 ),
                 footer()
@@ -24,6 +25,8 @@ def index() -> rx.Component:
    
    
    
-app = rx.App()
+app = rx.App(
+    styles=styles.BASE_STYLE
+)
 app.add_page(index)
 app._compile()
