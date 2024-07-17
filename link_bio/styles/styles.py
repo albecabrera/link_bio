@@ -1,6 +1,7 @@
 import reflex as rx
 from enum import Enum
 
+
 # Constants
 MAX_WITDH = "560px"
 
@@ -27,3 +28,12 @@ BASE_STYLE = {
     "_hover": {}
   }
 }
+
+button_title_style = dict(
+  font_size=Size.DEFAULT.value
+)
+
+button_body_style = dict(
+  font_size=Size.SMALL.value
+)
+

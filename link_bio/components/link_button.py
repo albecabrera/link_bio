@@ -1,4 +1,6 @@
 import reflex as rx
+import link_bio.styles.styles as styles
+
 
 def link_button(text: str, url: str) -> rx.Component:
   return rx.link(
@@ -8,8 +10,8 @@ rx.button(
       tag="arrow_foward",
     ),
     rx.vstack(
-      rx.text(text),
-      rx.text(text)
+      rx.text(text, style=styles.button_title_style),
+      rx.text(text, style=styles.button_body_style)
       )
     
   )
