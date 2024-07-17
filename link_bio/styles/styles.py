@@ -11,6 +11,7 @@ MAX_WITDH = "560px"
 class Size(Enum):
 
 SMALL = "0.5em"
+MEDIUM = "0.8"
 DEFAULT = "1em"
 BIG = "2em"
 
@@ -28,12 +29,16 @@ BASE_STYLE = {
     "_hover": {}
   }
 }
+title_style = dict(
+  width="100%",
+  padding_top=Size.DEFAULT.value
+)
 
 button_title_style = dict(
   font_size=Size.DEFAULT.value
 )
 
 button_body_style = dict(
-  font_size=Size.SMALL.value
+  font_size=Size.MEDIUM.value
 )
 
