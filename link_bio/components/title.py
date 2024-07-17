@@ -1,5 +1,6 @@
 import reflex as rx
 import link_bio.styles.styles as styles
+import link_bio.components.title as title
 
 
 def link_button(text: str) -> rx.Component:

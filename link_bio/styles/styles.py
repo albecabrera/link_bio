@@ -16,7 +16,7 @@ class Size(Enum):
 
 # Styles
 BASE_STYLE = {
-  rx.Button: {
+  rx.button: {
     "width":"100%",
     "height":"100%",
     "displa":"block",
