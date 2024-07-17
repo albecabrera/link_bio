@@ -7,4 +7,5 @@ def links() -> rx.Component:
     link_button("Framer", "https://portfoliocabrera.framer.website"),
     link_button("Discord", "http://albertocabrera.de"),
     link_button("Instagram", "http://albertocabrera.de"),
+    width="100%"
   )

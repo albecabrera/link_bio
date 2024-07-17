@@ -21,5 +21,9 @@ BASE_STYLE = {
     "displa":"block",
     "padding": Size.SMALL.value,
     "border_radius": Size.DEFAULT.value
+  },
+  rx.link: {
+    "text-decoration":"none",
+    "_hover": {}
   }
 }
